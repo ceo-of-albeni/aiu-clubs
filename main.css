@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header {
+    background-color: #2D2753;
+    padding: 0;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 18px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #7d6de7;
+}
+
+.logo img {
+    width: 70px;
+    margin-right: 24px;
+}
+
+.main_first-section {
+    background: url('./images/homebackground.png') no-repeat center center/cover;
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);  */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main_first-section h2 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+    margin-bottom: 20px;
+}
+
+.main_first-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); 
+}
+
+.cta-button {
+    background-color: #2D2753;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.button-17 {
+  align-items: center;
+  text-decoration: none;
+  background-color: #9c0716;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.0rem;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  padding: 2px 24px;
+  text-align: center;
+  width: auto;
+}
+
+.button-17:hover {
+  background: #F6F9FE;
+  color: #174ea6;
+}
+
+.clubs {
+    padding: 50px 0;
+    background-color: #ecf0f1;
+}
+
+.clubs h3 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.club-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.club-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.club-item img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.club-item h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.club-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+footer {
+    background-color: #181D23;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer h5 {
+    color: #ffffff;
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #6e60cb;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+
+/* General and shared styles remain the same from previous pages */
+
+.about-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2D2753;
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.why-join-section {
+    padding: 60px 0;
+    background-color: #ecf0f1;
+    text-align: center;
+}
+
+.why-join-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #2D2753;
+}
+
+.why-join-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.why-join-section ul li {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 15px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.why-join-section ul li strong {
+    color: #2D2753;
+}
+
+/* Footer and other global styles remain consistent */
