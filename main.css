@@ -191,6 +191,28 @@ footer a:hover {
 
 /* General and shared styles remain the same from previous pages */
 
+.about-alatoo-section {
+    padding: 60px 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.about-alatoo-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #2D2753;
+}
+
+.about-alatoo-section p {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .about-section {
     padding: 60px 0;
     background-color: #f4f4f4;
