@@ -64,7 +64,7 @@ nav {
 }
 
 .main_first-section {
-    background: url('./images/homebackground.png') no-repeat center center/cover;
+    background: url('./images/homebackground.webp') no-repeat center center/cover;
     color: white;
     /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);  */
     height: 80vh;
