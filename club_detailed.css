@@ -4,10 +4,22 @@
 }
 
 .club-detail {
+    margin-top: 50px;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 40px;
 }
+
+@media all and (max-width: 1070px) {
+    .club-detail-section {
+        display: flex;
+        justify-content: center;align-items: center;
+    }
+    .club-detail {
+        justify-content: center;
+    }
+  }
 
 .club-photo {
     width: 300px;
