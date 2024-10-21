@@ -291,18 +291,18 @@ ol[itemscope] li {
 
 ol[itemscope] li a {
   text-decoration: none;
-  color: #3498db; /* Blue color for links */
+  color: #0e66a1;
   font-weight: 600;
 }
 
 ol[itemscope] li:not(:last-child)::after {
   content: ">";
   margin: 0 10px;
-  color: #555; /* Light gray color for separators */
+  color: #555;
 }
 
 ol[itemscope] li:last-child a {
-  color: #333; /* Darker color for the current page */
-  cursor: default; /* No pointer cursor */
-  pointer-events: none; /* Disable click */
+  color: #333;
+  cursor: default;
+  pointer-events: none;
 }
