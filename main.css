@@ -88,10 +88,9 @@ nav {
 }
 
 .main_first-section h2 {
-  font-size: 3rem;
-
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
-  margin-bottom: 20px;
+  font-size: 3rem !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9) !important;
+  margin-bottom: 20px !important;
 }
 
 .main_first-section p {
