@@ -79,3 +79,9 @@
 .breadcrumb-text {
   color: #142aff;
 }
+
+@media all and (max-width: 768px) {
+  .club-photo {
+    width: 150px;
+  }
+}
