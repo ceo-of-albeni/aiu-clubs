@@ -338,6 +338,14 @@ ol[itemscope] li:last-child a {
     flex-wrap: wrap;
     width: 50%;
   }
+
+  .container h1 {
+    font-size: 20px;
+  }
+
+  .main_first-section h2 {
+    font-size: 1rem !important;
+  }
 }
 
 @media all and (max-width: 768px) {
